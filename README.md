@@ -1,12 +1,11 @@
 
-![input and output for a random image in the test dataset](https://framapic.org/OcE8HlU6me61/KNTt8GFQzxDR.png)
 
 
-Implementation of the [U-Net](https://arxiv.org/pdf/1505.04597.pdf) in Pytorch for Kaggle's [Carvana Image Masking Challenge](https://www.kaggle.com/c/carvana-image-masking-challenge). This was used with only one output class.
+Implementation of the [U-Net](https://arxiv.org/pdf/1505.04597.pdf) in Pytorch for Kaggle's 
 
 This model was trained from scratch with 5000 images (no data augmentation) and scored a [dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient) of 0.988423 (511 out of 735) on over 100k test images. 
 
-The model used for the last submission is stored in the `MODEL.pth` file. The data is available on the [Kaggle website](https://www.kaggle.com/c/carvana-image-masking-challenge/data).
+The model used for the last submission is stored in the `MODEL.pth` file.
 
 ## Usage
 **Note : Use Python 3**
