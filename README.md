@@ -1,4 +1,4 @@
-# Pytorch-UNet
+
 ![input and output for a random image in the test dataset](https://framapic.org/OcE8HlU6me61/KNTt8GFQzxDR.png)
 
 
