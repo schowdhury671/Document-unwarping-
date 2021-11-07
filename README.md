@@ -1,7 +1,7 @@
 
 
 
-Implementation of the [U-Net](https://arxiv.org/pdf/1505.04597.pdf) in Pytorch
+Implementation of the [U-Net](https://arxiv.org/pdf/1505.04597.pdf) based baseline model in Pytorch
 
 This model was trained from scratch with 5000 images (no data augmentation) and scored a [dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient) of 0.988423 (511 out of 735) on over 100k test images. 
 
